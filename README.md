@@ -1,0 +1,1 @@
+# rails-path-opener-firefox
