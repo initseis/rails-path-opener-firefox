@@ -1,0 +1,20 @@
+{
+  "description": "Open Ruby on Rails error paths in VS Code",
+  "manifest_version": 2,
+  "name": "Rails path opener",
+  "version": "1.0",
+  "homepage_url": "https://github.com/sevinchek/rails-path-opener-firefox",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost/*"
+      ],
+      "js": [
+        "background.js"
+      ]
+    }
+  ]
+}
